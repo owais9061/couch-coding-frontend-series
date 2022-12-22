@@ -1,0 +1,36 @@
+/* UNIVERSAL SELECTOR */
+
+* {
+    color: purple;
+}
+
+/* ID SELECTOR */
+
+#main-heading {
+    color: yellow;
+}
+
+/* CLASS SELECTOR */
+.normal-paragraph {
+    color:blue;
+}
+
+button {
+    font-size: 40px;
+    padding: 20px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+img {
+    width: 300px;
+    transition: all 300ms;
+    animation: float 200ms infinite alternate-reverse;
+}

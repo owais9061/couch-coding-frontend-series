@@ -1,0 +1,112 @@
+CSS TOPICS:
+
+1-Introduction
+
+2- Common Properties
+
+3- Specificity
+
+4- CSS BOX MODEL
+
+5-  Complex Properties (Postion, Display)
+
+6- Media Queries (responsivnes ---> Phone, Laptop, TV, Computer)
+
+7-  Extras (Psuedo Selectors, Animations)
+
+---
+
+--------------------------------------------------------------------------------------------------------------------
+
+CASCADING STYLE SHEET -------->  CASCADING --> ONE ON ANOTHER  ---> 1-->2-->3-->4
+
+CSS ---> WEB PAGES--> STYLING
+--> WEB PAGES
+
+IMAGES, BUTTONS, COLORS, ANIMATIONS --------> CSS
+
+--------------------------------------------------------------------------------------------------------------
+
+CSS
+
+Element { 
+properties= value/attribute;
+}
+----------------------------------------------------------------------------------------------------
+
+
+FONTS
+HEIGHT-WIDTH
+BACKGROUND
+BORDER
+	border-radius ---> CORNER SE  GOLAIII
+COLORS
+FONT-STYLE
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------
+SPECIFICITY  ---> CSS FILE/STYLESHEET
+----> CSS SELECTORS
+
+INTERNAL/INLINE  -----> EXTERNAL SHEET NO CONNECT
+
+
+-----------------------------------------------------------------------------------------
+
+CSS SELECTORS 
+
+MANGO DAY -----> THEME YELLOW DRESSING ---> CLASS 8,9,10 : RED
+
+ID--> LEADERS --> BLACK SHIRTS
+
+
+UNIVERSAL ---> COLOR:  YELLOW   ---->   * { }
+
+ID --> COLOR : BLACK SHIRTS  ---->  # { }
+
+CLASS --> COLOR: RED  --->  . { }
+
+class = "normal--paragraph"
+
+
+DIV ---> POsition Absolute
+	button --> Positon relative
+
+POSTIONS ------->
+	Static
+	Relative
+	Absolute
+
+
+BLOCK ---- INLINE
+-------------------------------
+
+Block-------> POOORI    WEBSITE    (SEGMENT OCCUPY)
+INLINE ---> AIK   SEGMENT   MEIN   MULTIPLE   ELEMENTS
+
+
+RESPONSIVENESS ------->
+
+AIK WEBSITE
+
+QUERY ---> ASKING--> Fetch --> Different Sizes --> Reponsive
+
+MOBILE    576PX
+TABLET     768PX
+LAPTOP   920px
+COMPUTERS    1280px
+
+
+
+A  -->  B
+
+
+a ----> b (time / pattern ----> transition)
+a ----> b ( Animation )
