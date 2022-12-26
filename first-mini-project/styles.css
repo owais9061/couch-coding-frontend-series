@@ -1,0 +1,14 @@
+#div__container {
+    border: 3px solid red;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.style__div {
+    border: 3px solid green;
+    width: 100px;
+    height: 100px;
+}
