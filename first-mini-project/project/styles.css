@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100vh;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-left: 40px;
+}
+
+ul {
+    padding: 20px;
+    display: flex;
+    margin-right: 40px;
+}
+
+ul li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+header .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home__description {
+    padding: 50px;
+}
+
+.home__description h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.subheader {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.home__description button {
+    padding: 20px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#about {
+    padding-top: 20px;
+    text-align: center;
+    background-color:rgb(99, 205, 170);
+}
+
+.section__description {
+    text-align: left;
+    display: flex;
+    padding: 45px;
+}
+
+.section__description img {
+    width: 600px;
+}
+
+.section__description p {
+    margin-bottom: 40px;
+}
+
+#contact {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(43, 145, 208);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form span {
+    margin-bottom: 10px;
+}
+
+#contact form input {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#contact form button {
+    padding:10px;
+    background-color: black;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
