@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #main {
     height: 100vh;
 }
@@ -18,7 +22,7 @@ nav img {
 }
 
 ul {
-    padding: 20px;
+    padding: 35px;
     display: flex;
     margin-right: 40px;
 }
@@ -28,10 +32,17 @@ ul li {
     list-style: none;
 }
 
+ul li:hover,
+ul a:hover {
+    background-color: black;
+    color: white;
+}
+
 ul a {
     color: black;
     text-decoration: none;
 }
+
 
 header .row {
     display: flex;
@@ -107,3 +118,34 @@ header .row {
     color: antiquewhite;
     margin-bottom: 20px;
 }
+
+/* FOOTER STYLING */
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    filter: brightness(50);
+}
+
+footer .footer__link {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+footer .footer__links {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
