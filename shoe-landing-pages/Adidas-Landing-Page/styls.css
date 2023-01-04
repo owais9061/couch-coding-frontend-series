@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+body #main {
+    background-image:url("./background-img.png");
+    height: 100vh;
+}
+
+/* NAVIGATION SECTION */
+nav .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+
+}
+
+nav .logo__img--wrapper img {
+    width: 100px;
+    height: 100px;
+    filter: invert(1);
+}
+
+nav .nav__social--icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5em;
+    filter:invert(1);
+}
+
+.insta__logo img {
+    height: 30px;
+    width: 35px;
+}
+
+nav .nav__social--icons {
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+/* HEADER */
+
+body #hero__section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .hero__img--wrapper img {
+    width: 750px;
+    height: 750px;
+    transform: rotate(-45deg);
+    margin-top: -10em;
+}
+
+header .left__hero--section {
+    margin-left: 1em;
+    padding: 0 1em;
+}
+
+header .right__hero--section h1,
+header .right__hero--section h3 {
+    color: whitesmoke;
+    margin-bottom: 1em;
+}
+
+header .right__hero--section h1 {
+    font-size: 55px;
+}
+
+header .right__hero--section p {
+    color: rgb(187, 179, 179);
+    font-size: 16px;
+    margin-bottom:1em ;
+}
+
+header .right__hero--section button {
+    padding: 0.5em 3em;
+    border-radius: 25px;
+    border: none;
+    margin-top: 1em;
+}
