@@ -9,6 +9,11 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #323131;
+}
+
 body #main {
     background-image:url("./background-img.png");
     height: 100vh;
@@ -89,4 +94,100 @@ header .right__hero--section button {
     border-radius: 25px;
     border: none;
     margin-top: 1em;
+}
+
+
+/* PRODUCTS CATALOUGE */
+#products__catalouge {
+    height: 100vh;
+    padding-top: 2em;
+    background-color: #323131;
+    text-align: center;
+}
+
+#products__catalouge h2 {
+    font-size: 35px;
+    margin-bottom: 2em;
+    color: whitesmoke;
+}
+#products__catalouge .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#products__catalouge .product__img--wrapper img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+#products__catalouge article {
+    width: calc(100%/3);
+    background-color: #262525;
+    border-radius: 25px;
+    width: 350px;
+}
+
+#products__catalouge article h3 {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    color: whitesmoke;
+    margin-top: 0.5em;
+}
+
+#products__catalouge article p {
+    font-size: 14px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: rgb(144, 135, 135);
+}
+
+#products__catalouge article button {
+    margin-top: 1em;
+}
+
+#products__catalouge article button {
+    padding: 0.5em 3em;
+    margin-bottom: 1em;
+    outline: none;
+    color: #323131;
+}
+
+#products__catalouge article button:hover {
+    background-color: #262525;
+    color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #db1a1a;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2em;
+}
+
+footer .logo__img--wrapper img {
+    width: 100px;
+}
+
+footer .footer__social--icons {
+    display: flex;
+    list-style: none;
+}
+
+footer .footer__social--icon {
+    width: 32px;
+}
+footer a:hover {
+    color: #262525;
 }
