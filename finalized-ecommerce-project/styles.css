@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary {
+    background-color: blueviolet;
+    padding: 0.3rem 1rem 0 1rem;
+    border-radius: 20px;
+}
+
+.primary a {
+    color: whitesmoke;
+}
+
+.large__size--font {
+    font-size: 50px;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+ul {
+    list-style: none;
+}
+
+/* NAVIGATION SECTION */
+
+nav {
+    margin-bottom: 1rem;
+}
+nav .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+nav .logo__img--wrapper img {
+    width: 90px;
+}
+
+nav .nav__links {
+    text-transform: uppercase;
+    justify-content: space-around;
+    display: flex;
+    width: 300px;
+    padding: 1.5rem 0;
+}
+
+nav .nav__link {
+    margin-left: 1rem;
+}
+
+
+/* HEADER --> LANDING PAGE */
+
+#landing__section {
+    height: 100vh;
+    text-align: center;
+    background-color: #7342d61a;
+}
+
+#landing__section h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+#landing__section h4 {
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+#landing__section button {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:blueviolet;
+    border:none;
+
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+#landing__section button:hover {
+    background-color: rgb(113, 33, 187);
+}
+
+#landing__section .main__img--wrapper img {
+    width: 620px;
+}
+
