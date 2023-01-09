@@ -100,3 +100,65 @@ nav .nav__link {
     width: 620px;
 }
 
+    /* COURSES
+         SECTION */
+/* HIGHLIGHTS OF THE COURSE */
+
+#highlights__section {
+    text-align: center;
+}
+
+#highlights__section h2 {
+    margin-bottom: 2rem;
+}
+
+#highlights__section .highlights {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#highlights__section .highlight p {
+    font-size: 16px;
+}
+
+#highlights__section .highlight {
+    width: calc(100%/3);
+}
+
+/* COURSES SECTION */
+
+#courses__section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#courses__section h3 {
+    margin-bottom: 2rem;
+}
+
+#courses__section .row {
+    width: 100%;
+}
+#courses__section .courses {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#courses__section .course {
+    margin: 0 0.5rem;
+}
+
+#courses__section .course__img--wrapper img {
+    border-radius: 10px;
+}
+
+#courses__section .courses a {
+    color: blueviolet;
+    font-size: 12px;
+}
+
+#courses__section .courses a:hover {
+    color: black;
+}
