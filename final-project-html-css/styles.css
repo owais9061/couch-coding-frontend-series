@@ -77,3 +77,7 @@ header .row h1 {
 header .row h4 {
     font-size: 25px;
 }
+
+header button {
+    padding: 0.5rem 2rem;
+}
