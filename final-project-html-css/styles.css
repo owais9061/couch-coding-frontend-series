@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: 100%;
 }
@@ -80,4 +84,137 @@ header .row h4 {
 
 header button {
     padding: 0.5rem 2rem;
+    background-color: blueviolet;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+header button:hover {
+    background-color: rgb(109, 30, 182);
+}
+
+.main__img--wrapper img {
+    margin-top: 0.5rem;
+    width: 800px;
+    height: 350px;
+}
+
+
+/* HIGHLIGHTS */
+
+#highlights {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#highlights .highlights {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.highlight {
+    margin-top: 1.5rem;
+    width: calc(100%/3);
+    margin: 0 0.5rem;
+}
+
+.highlight i {
+    font-size: 45px;
+    color: blueviolet;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.highlight__heading h4 {
+    font-size: 22px;
+    margin: 0.5rem 0;
+}
+
+.highlight .highlight__para {
+    font-size: 16px;
+}
+
+
+/* FEATURED COURSES */
+
+#featured__courses {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#featured__courses .courses {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.course {
+    width: calc(100%/3);
+    margin: 0 0.5rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.course img {
+    border-radius: 10px;
+}
+
+.course img:hover {
+    cursor: no-drop;
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+}
+
+.course h4 {
+    font-size: 16px;
+    margin-bottom: 0.2rem 0;
+}
+
+.course__rating i {
+    color: gold;
+    margin-bottom: 0.5rem;
+}
+
+.course button {
+    padding: 0.3rem 1rem;
+    font-size: 12px;
+    color: whitesmoke;
+    background-color:blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.not__available--btn {
+    cursor: no-drop;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(54, 48, 48);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+footer ul li {
+    margin: 0 1rem;
 }
